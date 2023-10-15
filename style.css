@@ -1,0 +1,22 @@
+body {
+  background: black;
+  margin: 0;
+}
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  outline: none;
+  background: url(https://media.giphy.com/media/M7tAZfG9vgYTfoAOsM/giphy-downsized-large.gif);
+  background-size: contain;
+  background-position: top left;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 10rem;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
